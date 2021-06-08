@@ -1,6 +1,6 @@
 # Stackoverflow Question API
 
-Application for Stackoverflow question infinitely while scrolling using the [StackExchange API](https://api.stackexchange.com/docs/questions).
+Application for listing StackOverflow question infinitely while scrolling using the [StackExchange API](https://api.stackexchange.com/docs/questions).
 
 ## Getting Started
 
