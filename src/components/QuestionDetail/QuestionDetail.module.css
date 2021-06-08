@@ -1,0 +1,81 @@
+.questionDetailWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionDetailMain {
+  max-width: 960px;
+  position: relative;
+  width: 100%;
+  background: white;
+  min-height: 60vh;
+  height: 100%;
+  max-height: 75vh;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 1.75em 2em;
+}
+
+.questionDetail {
+  overflow: auto;
+  height: 100%;
+  margin-top: 1em;
+}
+
+.questionMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.questionMeta p {
+  margin: 0.5em 0;
+}
+
+.questionMeta svg {
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1;
+  vertical-align: bottom;
+  padding-right: 0.2em;
+}
+
+.questionMeta > a {
+  color: #d64a17;
+}
+
+.questionMeta > a:hover {
+  opacity: 0.65;
+  text-decoration: none;
+}
+
+.questionClose {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  position: absolute;
+  top: 0.65rem;
+  appearance: none;
+  right: 1.25rem;
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.questionClose:hover {
+  opacity: 0.65;
+}
+
+.questionHeading {
+  background: white;
+  position: sticky;
+  top: 0;
+  padding-bottom: 0.5rem;
+}

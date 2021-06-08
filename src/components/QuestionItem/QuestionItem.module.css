@@ -1,0 +1,23 @@
+.author,
+.timestamp {
+  white-space: nowrap;
+}
+
+.author {
+  max-width: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.question {
+  line-height: 1.6;
+}
+
+.questionItem {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.questionItem:hover {
+  background-color: #e5e7eb;
+}
